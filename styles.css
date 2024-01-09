@@ -1,0 +1,72 @@
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 10px;
+    color:white;
+}
+body { /*Define o fundo do website*/
+    padding:27px; 
+    background-image: url(Images/0ijpct4epe0a1.png);
+    background-size: cover; /* No wrap on the background image */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.back { /*Define uma caixa transparente para colocar os itens do site*/
+    width: 100vw;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: rgba(65, 65, 65, 0.89);
+    border-radius: 10px;
+}
+a {
+    text-decoration: none; /*Removes blue underline from link*/
+}
+p, li {
+    font-size: 18px;
+}
+h1 {
+    font-size: 40px;
+    margin-top: 15px;
+
+}
+h1, h2, p {
+    text-align: center;
+    color:white;
+}
+h3 {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 21px;
+
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: larger;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+.descricao { /* Estilo para classe descrição */
+    display: inline-block;
+    margin-left: 50px;
+}
+hr {
+    height:1px;
+    background-color: gray;
+    width: 90%;
+}
+img {
+    max-width: 90%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;    
+    border-radius: 4px;
+    
+}
