@@ -41,7 +41,7 @@ h3 {
     font-size: 21px;
 
 }
-.links {
+.links, .devicon{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -70,3 +70,25 @@ img {
     border-radius: 4px;
     
 }
+
+.hidden {
+    opacity: 0;
+    filter:blur(5px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.show {
+    opacity:1;
+    filter:blur(0px);
+    transform: translateX(0%);
+
+}
+
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+}
+
+
