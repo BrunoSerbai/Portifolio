@@ -4,21 +4,22 @@ html {
     scroll-padding: 10px;
     color:white;
 }
-body { /*Define o fundo do website*/
+body { /*Website Background*/
     padding:27px; 
-    background-image: url(Images/0ijpct4epe0a1.png);
+    background-image: url(Images/Background.png);
     background-size: cover; /* No wrap on the background image */
     margin: 0;
     display: flex;
     justify-content: center;
     
 }
-.back { /*Define uma caixa transparente para colocar os itens do site*/
+.back{ /*Black box to display items*/
     width: 100vw;
     max-width: 1000px;
     padding: 20px;
-    background-color: rgba(65, 65, 65, 0.89);
+    background-color: rgba(65, 65, 65, 0.75);
     border-radius: 10px;
+    backdrop-filter: blur(10px); /*Add blur to the back of the item*/
 }
 a {
     text-decoration: none; /*Removes blue underline from link*/
@@ -53,7 +54,7 @@ h3 {
 li {
     list-style: none;
 }
-.descricao { /* Estilo para classe descrição */
+.descricao { 
     display: inline-block;
     margin-left: 50px;
 }
@@ -83,6 +84,14 @@ img {
     filter:blur(0px);
     transform: translateX(0%);
 
+}
+
+#profile{
+    height:auto;
+    width: 20vh;
+    min-width:170px;
+    max-width: 500px;
+    border-radius: 100%;
 }
 /*
 @media(prefers-reduced-motion){
