@@ -5,39 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
     <title>Bruno Serbai</title>
     <link href="styles.css" rel="stylesheet" />     
-    <script defer src="app.js"></script>
+    <script defer src="index.js"></script>
 
   </head>
 
   <body>
     <div class="back">
-      <div class="back-text">
       <header>
         <img id="profile" src="Images/Profile .jpg">
         <h1>Bruno Serbai</h1>
         <hr>
+
         <ul class="links"> <!-- Links para navegar a página-->
-          <li>
-            <a href="#sobre">
-              <p>Sobre mim</p>
-            </a>
-          </li>
-          <li> 	
-            <a href="#formação">
-              <p>Formação</p>
-            </a>
-          </li>
-          <li>
-            <a href="#projetos">
-              <p>Experiência</p>
-            </a>
-          </li>
-          <li>
-            <a href="#contato">
-              <p>Contato</p>
-            </a>
-          </li>
+          <li> <a href="#sobre">Sobre mim</a> </li>
+          <li> <a href="#formação">Formação</a> </li>
+          <li> <a href="#projetos">Experiência</a> </li>
+          <li> <a href="#contato">Contato</a> </li>
+          <li> <a target="blank" href="Bruno Serbai 29-01-24.pdf">Currículo</a> </li>
         </ul>
+
         <hr>
       </header>
 
@@ -46,77 +32,72 @@
 
           <h3 id="sobre">Sobre mim</h3>
           <p>
-            Sou apaixonado pela evolução e complexidade dos computadores. Estou cursando engenharia de software a procura de desenvolver minhas habilidades e adquirir mais conhecimento.
-          </p>
-          <p>
-            Realizei trabalhos freelancer desenvolvendo websites, programas
-            para gestão de pedidos e automação de mensagens para restaurantes em Londrina. Ficaria muito feliz
-            em ter sua empresa aqui em meu portfólio!
+            Sou apaixonado pela evolução e complexidade dos computadores. 
+            Estou cursando engenharia de software a procura de desenvolver minhas habilidades e adquirir mais conhecimento.
+          <br><br>
+            Realizei trabalhos freelancer desenvolvendo websites, programas para gestão de pedidos e automação de mensagens para restaurantes em Londrina. 
+            Ficaria muito feliz em ter sua empresa aqui em meu portfólio!
           </p>
 
           <h3 id="formação">Formação</h3>
           <ul>
-            <li>
-              Faculdade: Cursando Engenharia de Software Universidade Uninter
-            </li>
-            <br/>
-            <li>Línguas: Inglês Fluente - Fisk</li>
-            <br/>
-            <li>
-              Tecnologias: HTML, CSS, Javascript, Python, Node.js, Git, Github, Linux, Nginx
-            </li>
+            <li>Faculdade: Cursando Engenharia de Software Universidade Uninter</li><br>
+            <li>Línguas: Inglês Fluente - Fisk</li><br>
+            <li>Tecnologias: HTML, CSS, Javascript, Python, Node.js, Git, Github, Linux, Nginx</li>
           </ul>
-          <br><br>
-
+          
           <div class="devicon">
-          <img src="Icons/html5-original-wordmark.svg" width="80" height="70"/> 
-          <img src="Icons/css3-original-wordmark.svg" width="80" height="70"/>
-          <img src="Icons/javascript-original.svg" width="70" height="70"/>
-          <img src="Icons/python-original-wordmark.svg" width="90" height="70" />
-          <img src="Icons/nodejs-original-wordmark.svg" width="110" height="70" />
-          <img src="Icons/git-original-wordmark.svg" width="110" height="70"/>
-          <img src="Icons/github-original-wordmark.svg" width="80" height="70"/>
-          <img src="Icons/linux-original.svg" width="80" height="70"/>
-          <img src="Icons/nginx-original.svg" width="80" height="70"/>
-
-
+            <img src="Icons/html5-original-wordmark.svg" width="80" height="70"/> 
+            <img src="Icons/css3-original-wordmark.svg" width="80" height="70"/>
+            <img src="Icons/javascript-original.svg" width="70" height="70"/>
+            <img src="Icons/python-original-wordmark.svg" width="90" height="70" />
+            <img src="Icons/nodejs-original-wordmark.svg" width="110" height="70" />
+            <img src="Icons/git-original-wordmark.svg" width="110" height="70"/>
+            <img src="Icons/github-original-wordmark.svg" width="80" height="70"/>
+            <img src="Icons/linux-original.svg" width="80" height="70"/>
+            <img src="Icons/nginx-original.svg" width="80" height="70"/>
           </div>
-          <br><br>
 
           <h2 id="projetos">Experiência</h2>
-          <hr/>
+          <hr>
+
           <div class="hidden">
-          <h3>Rokku Burguer- Gerenciamento de Pedidos</h3>
-          <img src="Images/Rokku-1.png" alt="Menu para realização do pedido"/><br/>
-          <img src="Images/Rokku-2.jpeg" alt="Demonstração do pedido realizado"/>
-          <p>
-            Sistema de gerenciamento de pedidos para restaurante Rokku Burguer.
-            O programa facilita a coleta de pedidos, reduz erros de cobrança e
-            aumenta a eficiência do atendimento.
-          </p>
-          <br/>
+            <h3>Rokku Burguer- Gerenciamento de Pedidos</h3>
+            <img src="Images/Rokku-1.png" alt="Menu para realização do pedido"/><br/>
+            <img src="Images/Rokku-2.jpeg" alt="Demonstração do pedido realizado"/>
+            <p>
+              Sistema de gerenciamento de pedidos para restaurante Rokku Burguer.
+              O programa facilita a coleta de pedidos, reduz erros de cobrança e
+              aumenta a eficiência do atendimento.
+            </p>
+            <label for="id=rokkuTest">Testar Programa:</label>
+            <a id=rokkuTest" target="_blank" href="Rokku Burger/index.html"><button>Rokku Burger</button></a><br>
           </div>
+
           <div class="hidden">
-          <h3>ItgoPoke- Automação de Mensagens</h3>
-          <img src="Images/ItgoPokeLogo.png" alt="Logo do restaurante Itgo Poke ">
-          <p>Automação de mensagens por WhatsApp. O programa reduz trabalho pelos atendentes e providencia respostas rápidas ao cliente.</p>
-          <br>
+            <h3>ItgoPoke- Automação de Mensagens</h3>
+            <img src="Images/ItgoPokeLogo.png" alt="Logo do restaurante Itgo Poke ">
+            <p>Automação de mensagens por WhatsApp. O programa reduz trabalho pelos atendentes e providencia respostas rápidas ao cliente.</p><br>
           </div>
+
           <div class="hidden">
-          <h3>Hospedagem de Website</h3>
-          <img src="Images/tyler-mohrman-eqd0f78u9nI-unsplash.jpg">
-          <p>Este website é hospedado em servidor local, gerenciado com Nginx rodando sistema operacional Linux</p>
+            <h3>Hospedagem de Website</h3>
+            <img src="Images/tyler-mohrman-eqd0f78u9nI-unsplash.jpg">
+            <p>Este website é hospedado em servidor local, gerenciado com Nginx rodando sistema operacional Linux.
+               No momento está fora do ar devido a problemas com a provedora de internet ☹️</p>
           </div>
         </section>
       </main>
+
       <footer>
         <br/>
         <h2 id="contato">Contato</h2>
-        <hr/>
+        <hr>
+
         <ul class="links">
           <li>
-            <a href="https://www.linkedin.com/in/bruno-serbai-5a742823b" target="_blank">
-              <img src="Icons/linkedin-original-wordmark.svg" width="120" height="70"/>
+            <a href="https://www.linkedin.com/in/bruno-serbai" target="_blank">
+              <img src="Icons/linkedin-original-wordmark.svg" alt="Linkedin" width="120" height="70"/>
             </a>
           </li>
           
@@ -128,19 +109,17 @@
           
           <li>
             <a href="https://wa.me/55991107327?text=Olá,%20Bom%20Dia%20!" target="_blank">
-              <img src="Icons/whatsapp-white-logo-svgrepo-com.svg" width="180" height="10"/>
-              
+              <img src="Icons/whatsapp-white-logo-svgrepo-com.svg" alt="WhatsApp" width="180" height="10"/>
             </a>
           </li>
           
           <li>
             <a href="https://github.com/BrunoSerbai" target="_blank">
-              <img src="Icons/github-original-wordmark.svg" width="70" height="70"/>
+              <img src="Icons/github-original-wordmark.svg" alt="Github" width="70" height="70"/>
             </a>
           </li>
         </ul>
       </footer>
       </div>
-    </div>
   </body>
 </html>
