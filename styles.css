@@ -14,21 +14,13 @@ body { /*Website Background*/
     justify-content: center;
 }
 
-a { color:white; text-decoration: none; /*Removes blue underline from link*/ }
+a { cursor: pointer; color:white; text-decoration: none; /*Removes blue underline from link*/ }
 
-h3, ul {
-    text-align: left;
-    margin-top: 60px;
-    margin-bottom: 10px;
-}
+h3, ul { text-align: left; margin-top: 60px; margin-bottom: 10px; }
 
 li { list-style: none }
 
-hr {
-    height:1px;
-    background-color: gray;
-    width: 90%;
-}
+hr { height:1px; background-color: gray; width: 90%; }
 
 img {
     max-width: 90%; 
@@ -36,60 +28,51 @@ img {
     display: block; 
     margin: 0 auto;    
     border-radius: 8px;
-    
 }
 
 button{
     padding:10px;
     color:black;
     border: 0px;
-    background-color: rgb(183, 183, 184);
+    background-color: rgb(255, 255, 255);
     border-radius: 20px; 
+    font-size: medium;
 }
+
 button:hover{
     color:white;
     border:0px;
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(71, 71, 71);
+    cursor: pointer;
 }
+
 .back{ /*Black box to display items*/
     margin:27px;
     width: 100vw;
-    max-width: 1100px;
+    max-width: 1200px;
     padding: 20px;
     background-color: rgba(60, 60, 60, 0.75);
     border-radius: 10px;
     backdrop-filter: blur(10px); /*Add blur to the back of the item*/
 }
 
-.links, .devicon{
+.devicon{ display:flex; flex-wrap:wrap; justify-content: center; img{ height:5vh; min-height: 40px; margin: 5px;} }
+
+.links{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
     padding: 0;
     margin: 30px;
+    a{ margin: 5px; }
+    img{ height:5vh; min-height: 40px; margin: 5px;}
 }
 
-.hidden {
-    opacity: 0;
-    filter:blur(5px);
-    transition: all 0.7s;
-    transform: translateX(-100%);
-}
+.hidden { opacity: 0; filter:blur(5px);  transition: all 1s;  transform: translateY(10%); }
 
-.show {
-    opacity:1;
-    filter:blur(0px);
-    transform: translateX(0%);
+.show { opacity:1; filter:blur(0px); transform: translateY(0%); }
 
-}
-
-#profile{
-    height:auto;
-    width: 20vh;
-    min-width:170px;
-    max-width: 500px;
-    border-radius: 100%;
-}
+#profile{ height:auto; width: 20vh; min-width:170px; max-width: 500px; border-radius: 100%; }
 
 
