@@ -2,16 +2,17 @@ html {
     scroll-behavior: smooth;
     scroll-padding: 10px;
     color:white;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: center;
 }
 
 body { /*Website Background*/
-    background-image: url(Images/Background.png);
+    background-image: url(Images/Background.jpg);
     background-size: cover; /* No wrap on the background image */
     margin: 0;
     display: flex;
     justify-content: center;
+    backdrop-filter: blur(10px); /*Add blur to the back of the item*/
 }
 
 a { cursor: pointer; color:white; text-decoration: none; /*Removes blue underline from link*/ }
@@ -37,6 +38,8 @@ button{
     background-color: rgb(255, 255, 255);
     border-radius: 20px; 
     font-size: medium;
+    font-weight: 600;
+    padding: 10px 50px;
 }
 
 button:hover{
@@ -75,4 +78,11 @@ button:hover{
 
 #profile{ height:auto; width: 20vh; min-width:170px; max-width: 500px; border-radius: 100%; }
 
-
+@media (max-width: 420px) {
+    body {
+        font-size: 19px;
+    }
+    .devicon, .links{ margin:0; display:grid; flex-wrap:wrap; place-items: center; img{  min-height: 40px; margin: 10px;} }
+    
+    li{margin:10px;}
+}
