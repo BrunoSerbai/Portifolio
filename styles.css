@@ -85,7 +85,7 @@ button:hover{
     
     .devicon{ display:grid;   grid-template-columns: 50% 50% ; align-items: center;justify-items: center;}
 
-    .header-links{display: flex; justify-content: space-evenly; flex-wrap: wrap; a{ margin: 5px; }
+    .header-links{display: flex; justify-content: space-evenly; flex-wrap: wrap; a{ margin: 5px; }}
 
     li{margin:10px;}
 }
