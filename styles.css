@@ -7,7 +7,7 @@ html {
 }
 
 body { /*Website Background*/
-    background-image: url(Images/Background.jpg);
+    background-image: url(Images/rqi62l55jc581a.jpg);
     background-size: cover; /* No wrap on the background image */
     margin: 0;
     display: flex;
@@ -35,7 +35,7 @@ button{
     padding:10px;
     color:black;
     border: 0px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(200, 200, 200);
     border-radius: 20px; 
     font-size: medium;
     font-weight: 600;
@@ -53,13 +53,13 @@ button:hover{
     margin:27px;
     width: 100vw;
     max-width: 1200px;
-    padding: 20px;
+    padding: 40px 20px 20px 20px ;
     background-color: rgba(60, 60, 60, 0.75);
     border-radius: 10px;
     backdrop-filter: blur(10px); /*Add blur to the back of the item*/
 }
 
-.devicon{ display:flex; flex-wrap:wrap; justify-content: center; img{ height:5vh; min-height: 40px; margin: 5px;} }
+.devicon{ display:flex; flex-wrap:wrap; justify-content: center; img{ height:5vh; min-height: 40px; min-width: 90px; margin: 5px;} }
 
 .links{
     display: flex;
@@ -78,11 +78,14 @@ button:hover{
 
 #profile{ height:auto; width: 20vh; min-width:170px; max-width: 500px; border-radius: 100%; }
 
-@media (max-width: 420px) {
-    body {
-        font-size: 19px;
-    }
-    .devicon, .links{ margin:0; display:grid; flex-wrap:wrap; place-items: center; img{  min-height: 40px; margin: 10px;} }
+@media (max-width: 440px) {
+
+    body { font-size: 19px; }
+    .back{padding: 5px; margin:5px; backdrop-filter: blur(10px);}
     
+    .devicon{ display:grid;   grid-template-columns: 50% 50% ; align-items: center;justify-items: center;}
+
+    .header-links{display: flex; justify-content: space-evenly; flex-wrap: wrap; a{ margin: 5px; }
+
     li{margin:10px;}
 }
