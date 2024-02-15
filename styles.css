@@ -78,21 +78,25 @@ button:hover{
 
 #profile{ height:auto; width: 20vh; min-width:170px; max-width: 500px; border-radius: 100%; }
 
-@media (max-width: 440px) {
+@media (max-width: 635px) {
+    .links{display:grid; grid-template-columns: 100%; align-items: center; justify-items: center;}
 
-    body { font-size: 19px; }
+}
+
+@media (max-width: 440px) {
 
     .back{padding: 5px; margin:5px; backdrop-filter: blur(10px);}
     
     .devicon{ display:grid; grid-template-columns: 50% 50% ; align-items: center;justify-items: center;}
 
-    .links{display:grid; grid-template-columns: 100%; align-items: center; justify-items: center;}
-
     .header-links{display: flex; justify-content: center; flex-wrap: no-wrap; button{margin-top:5px;} }
 
     li{margin:10px;}
+
+    img {
+        max-width: 100%; 
 }
 
-@media (max-width: 340px) {
+@media (max-width: 345px) {
     .header-links{flex-wrap: wrap;}
 }
