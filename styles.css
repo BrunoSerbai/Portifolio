@@ -81,9 +81,12 @@ button:hover{
 @media (max-width: 440px) {
 
     body { font-size: 19px; }
+
     .back{padding: 5px; margin:5px; backdrop-filter: blur(10px);}
     
-    .devicon{ display:grid;   grid-template-columns: 50% 50% ; align-items: center;justify-items: center;}
+    .devicon{ display:grid; grid-template-columns: 50% 50% ; align-items: center;justify-items: center;}
+
+    .links{display:grid; grid-template-columns: 100%; align-items: center; justify-items: center;}
 
     .header-links{display: flex; justify-content: center; flex-wrap: no-wrap; button{margin-top:5px;} }
 
@@ -92,5 +95,4 @@ button:hover{
 
 @media (max-width: 340px) {
     .header-links{flex-wrap: wrap;}
-    
 }
