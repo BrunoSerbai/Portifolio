@@ -8,7 +8,7 @@ html {
 }
 
 body { /*Website Background*/
-    background-image: url(Images/rqi62l55jc581a.jpg);
+    background-image: url(Images/rqi62l55jc581a.webp);
     background-size: cover; /* No wrap on the background image */
     margin: 0;
     display: flex;
@@ -41,6 +41,7 @@ button{
     font-size: medium;
     font-weight: 600;
     padding: 10px 50px;
+    box-shadow: 0 4px 1px -2px rgba(0, 0, 0, 0.404);
 }
 
 button:hover{
