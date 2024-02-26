@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 html {
   scroll-behavior: smooth;
   scroll-padding: 10px;
@@ -71,11 +72,11 @@ button:hover {
   /*Black box to display items*/
   margin: 27px;
   width: 100vw;
-  max-width: 1200px;
+  max-width: 1500px;
   padding: 40px 20px 20px 20px;
-  background-color: rgba(63, 63, 63, 0.4);
+  background-color: rgba(114, 113, 113, 0.11);
   border-radius: 10px;
-  backdrop-filter: blur(10px); /*Add blur to the back of the item*/
+  backdrop-filter: blur(30px); /*Add blur to the back of the item*/
 }
 
 .devicon {
@@ -83,7 +84,6 @@ button:hover {
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .devicon img {
   height: 5vh;
   min-height: 40px;
@@ -122,6 +122,30 @@ button:hover {
   transform: translateY(0%);
 }
 
+/*Possible Change for Devicons*/
+.icons{
+  display: inline-block;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+  min-height: 40px;
+  padding:0px 18px;
+  margin:5px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: rubik,roboto;
+  letter-spacing: 3px;
+}
+.icons i{
+  font-size: 24px;
+  margin:0 15px 0 0;
+}
+/*
+.icons img{ 
+}
+*/
 #profile {
   height: auto;
   width: 20vh;
@@ -140,10 +164,13 @@ button:hover {
 }
 
 @media (max-width: 470px) {
+  body{
+  backdrop-filter: blur(30px); /*Add blur to the back of the item*/
+  }
   .back {
     padding: 40px 5px 5px 5px;
     margin: 5px;
-    backdrop-filter: blur(10px);
+    background-color: rgba(0,0,0,0);
   }
 
   .devicon {
@@ -154,9 +181,16 @@ button:hover {
   }
 
   .devicon img {
-    width: 125px;
+    width: 130px;
   }
-
+  .icons{
+    width: 75%;
+    font-size: 12px;
+    justify-content: start;
+  }
+  .icons i{
+    font-size: 20px;
+  }
   .header-links {
     display: flex;
     justify-content: center;
