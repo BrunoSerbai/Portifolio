@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 html {
   scroll-behavior: smooth;
   scroll-padding: 10px;
@@ -24,7 +24,8 @@ a {
   text-decoration: none; /*Removes blue underline from link*/
 }
 
-h3,ul {
+h3,
+ul {
   text-align: left;
   margin-top: 60px;
   margin-bottom: 10px;
@@ -41,7 +42,7 @@ hr {
 }
 
 img {
-  max-width: 90%;
+  width: 80%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -84,31 +85,8 @@ button:hover {
   flex-wrap: wrap;
   justify-content: center;
 }
-.devicon img {
-  height: 5vh;
-  min-height: 40px;
-  min-width: 90px;
-  margin: 5px;
-}
 
-.links {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 0;
-  margin: 30px;
-}
 
-.links a {
-  margin: 5px;
-}
-
-.links img {
-  height: 5vh;
-  min-height: 40px;
-  margin: 5px;
-}
 .hidden {
   opacity: 0;
   filter: blur(5px);
@@ -123,7 +101,7 @@ button:hover {
 }
 
 /*Possible Change for Devicons*/
-.icons{
+.icons {
   display: inline-block;
   border-radius: 8px;
   display: flex;
@@ -131,21 +109,26 @@ button:hover {
   align-items: center;
   height: 5vh;
   min-height: 40px;
-  padding:0px 18px;
-  margin:5px;
-  font-size: 18px;
+  padding: 0px 18px;
+  margin: 5px;
+  font-size: 16px;
   font-weight: 600;
-  font-family: rubik,roboto;
+  font-family: rubik, roboto;
   letter-spacing: 3px;
 }
-.icons i{
+.icons i {
   font-size: 24px;
-  margin:0 15px 0 0;
+  margin: 0 15px 0 0;
 }
-/*
-.icons img{ 
+.icons img{
+  width:24px;
+  height:auto;
+  margin: 0 15px 0 0;
+  border-radius: 3px;
 }
-*/
+.contact{
+  justify-content: space-evenly;
+}
 #profile {
   height: auto;
   width: 20vh;
@@ -154,6 +137,31 @@ button:hover {
   border-radius: 100%;
 }
 
+@media (max-width: 720px) {
+  .devicon {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-items: center;
+  }
+  .icons {
+    width: 75%;
+    font-size: 16px;
+    justify-content: start;
+  }
+  ul {
+    padding: 0;
+  }
+  img {
+    width: 100%;
+  }
+}
+.devicon.education {
+  grid-template-columns: 115%;
+}
+.icons.education {
+  height: fit-content;
+}
 @media (max-width: 635px) {
   .links {
     display: grid;
@@ -161,35 +169,26 @@ button:hover {
     align-items: center;
     justify-items: center;
   }
+
+  .icons {
+    width: 75%;
+    font-size: 14px;
+    justify-content: start;
+  }
 }
 
 @media (max-width: 470px) {
-  body{
-  backdrop-filter: blur(30px); /*Add blur to the back of the item*/
+  body {
+    backdrop-filter: blur(30px); /*Add blur to the back of the item*/
   }
   .back {
     padding: 40px 5px 5px 5px;
     margin: 5px;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
   }
 
-  .devicon {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    justify-items: center;
-  }
-
-  .devicon img {
-    width: 130px;
-  }
-  .icons{
-    width: 75%;
+  .icons {
     font-size: 12px;
-    justify-content: start;
-  }
-  .icons i{
-    font-size: 20px;
   }
   .header-links {
     display: flex;
@@ -204,19 +203,14 @@ button:hover {
   li {
     margin: 10px;
   }
-
-  img {
-    max-width: 100%;
-  }
 }
 
 @media (max-width: 350px) {
   .header-links {
     flex-wrap: wrap;
   }
-  
-  .header-links button{
-    width:80vw;
 
+  .header-links button {
+    width: 80vw;
   }
 }

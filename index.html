@@ -7,10 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" /> 
     <link rel="icon" type="image/jpg" href="">
-    <link href="styles.css" rel="stylesheet" />     
-    <script defer src="index.js"></script>
+    <link href="./styles.css" rel="stylesheet" />     
+    <script defer src="./index.js"></script>
     <style></style>
 
   </head>
@@ -18,12 +17,12 @@
   <body>
     <div class="back">
       <header>
-        <img id="profile" src="Images/Profile.webp">
+        <img id="profile" src="./Images/Profile.webp">
         <h1>Bruno Serbai</h1>
     
         <div class="header-links"> <!-- Links para navegar a página-->
-          <a href="#contato"><button>Contato</button></a>
-          <a target="blank" href="Bruno Serbai.pdf"><button>Currículo</button></a>
+          <a href="#contato"><button>Contact</button></a>
+          <a target="blank" href="Bruno Serbai.doc"><button>Curriculum</button></a>
       </div>
 
       </header>
@@ -31,18 +30,26 @@
       <main>
         <section>
 
-          <h3 id="sobre">Sobre mim</h3>
+          <h3 id="sobre">About Me</h3>
           <p>
-            Desenvolvedor com entusiasmo para aprender e paixão por resolver desafios. Ansioso para contribuir em projetos inovadores e colaborar com a comunidade open source.
-            Comprometido com o aprimoramento constante e em deixar uma marca positiva no mundo do desenvolvimento de software.
-          </p>
+            Developer with enthusiasm to learn and passion of solving problemses. Excited to contribute to inovative projects and colaborate on open source community.
+            My goal is to always improve and leave a positive mark on the programming industry.</ap>
 
-          <h3 id="formação">Formação</h3>
+          <h3 id="formação">Education</h3>
           <ul>
-            <li>Faculdade: Cursando Engenharia de Software - Universidade Uninter</li><br>
-            <li>Línguas: Inglês Fluente - Fisk</li><br>
-            <li>Tecnologias: </li>
+            <li>Education:</li>
+              <div class="devicon education">
+                <div class="icons education" style="background-color: #323330;"><img src="Icons/images/bitmap.svg">UNINTER UNIVERSITY - BACHELOR OF SOFTWARE ENGINEERING</div>
+              </div>
+            <br>
+            <li>Languages:</li>
+              <div class="devicon">
+                <div class="icons" style="background-color: #a51818;"><img src="Icons/images/us.svg"> ENGLISH</div>
+                <div class="icons" style="background-color: #018D3E;"><img src="Icons/images/br.svg"> PORTUGUESE</div>
+              </div>
+            <li>Technical: </li>
           </ul>
+          
           
           <div class="devicon">
             <!-- Icons from: https://github.com/Ileriayo/markdown-badges and https://devicon.dev/-->
@@ -60,72 +67,70 @@
             <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" height="40" alt="Docker">
             <img src="https://img.shields.io/badge/tauri-%2324C8DB.svg?style=for-the-badge&logo=tauri&logoColor=%23FFFFFF" height="40" alt="Tauri">
             <img src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white" height="40" alt="Nginx"> 
-            -->
-            <div class="icons" style="background-color: #E34F26;"> <i class="devicon-html5-plain"></i><p>HTML<p></div>
-            <div class="icons" style="background-color: #1572B6;"> <i class="devicon-css3-plain"></i>CSS</div>
-            <div class="icons" style="background-color: #323330;"> <i class="devicon-javascript-plain colored"></i>JAVASCRIPT</div>
-            <div class="icons" style="background-color: #20232A;"> <i class="devicon-react-original colored"></i>REACT</div>
-            <div class="icons" style="background-color: #0000FF;"> <i class="devicon-mysql-plain-wordmark"></i>MYSQL</div>
-            <div class="icons" style="background-color: #F05033;"> <i class="devicon-git-plain"></i>GIT</div>
-            <div class="icons" style="background-color: #121011;"> <i class="devicon-github-original"></i>GITHUB</div>
-            <div class="icons" style="color:#333333 ;background-color: #FCC624;">  <i class="devicon-linux-plain"></i>LINUX</div>
-            <div class="icons" style="background-color: #0DB7ED">   <i class="devicon-docker-plain"></i>DOCKER</div>
-            <div class="icons" style="background-color: #009639;">  <i class="devicon-nginx-original"></i>NGINX</div>
-            <!--<div class="icons" style="background-color: #009639;">  <img src="Icons/images/image1.svg" class="" height="15px"></img>NGINX</div>-->
+            <div class="icons" style="background-color: #E34F26;"> <i class="devicon-html5-plain"></i>HTML 5</div> -->
+            <div class="icons" style="background-color: #E34F26;"> <img src="Icons/images/HTML5.svg"></img>HTML 5</div>
+            <div class="icons" style="background-color: #1572B6;"> <img src="Icons/images/CSS3.svg"></img>CSS 3</div>
+            <div class="icons" style="background-color: #323330;"> <img src="Icons/images/Javascript.svg"></img>JAVASCRIPT</div>
+            <div class="icons" style="background-color: #20232A;"> <img src="Icons/images/React.svg"></img>REACT</div>
+            <div class="icons" style="background-color: #0000FF;"> <img src="Icons/images/MySQL.svg"></img>MYSQL</div>
+            <div class="icons" style="background-color: #F05033;"> <img src="Icons/images/Git.svg"></img>GIT</div>
+            <div class="icons" style="background-color: #121011;"> <img src="Icons/images/GitHub.svg"></img>GITHUB</div>
+            <div class="icons" style="color:#333333 ;background-color: #FCC624;"><img src="Icons/images/Linux.svg"></img>LINUX</div>
+            <div class="icons" style="background-color: #0DB7ED"><img src="Icons/images/Docker.svg"></img>DOCKER</div>
+            <div class="icons" style="background-color: #009639;"><img src="Icons/images/Nginx.svg"></img>NGINX</div>
 
           </div><br>
 
-          <h2 id="projetos">Experiência</h2>
+          <h2 id="projetos">Experience</h2>
           <hr>
 
           <div class="hidden">
-            <h3>Rokku Burguer- Gerenciamento de Pedidos</h3>
-            <img loading="lazy" src="Images/Rokku-1.jpg" alt="Menu para realização do pedido"/><br/>
+            <h3>Rokku Burguer - Ordering sistem</h3>
+            <img loading="lazy" src="./Images/Rokku-1.jpg" alt="Menu para realização do pedido"/><br/>
           </div>
           <div class="hidden">
-            <img loading="lazy" src="Images/Rokku-2.jpg" alt="Demonstração do pedido realizado"/>
+            <img loading="lazy" src="./Images/Rokku-2.jpg" alt="Demonstração do pedido realizado"/>
             <p>
-              Sistema de gerenciamento de pedidos para restaurante Rokku Burguer.
-              O programa facilita a coleta de pedidos, reduz erros de cobrança e
-              aumenta a eficiência do atendimento.
+              Development of a ordering sistem for the restaurant Rokku Burger.
+              The ordering sistem makes taking orders faster, reduces pricing errors and increases the efficiency inside the kitchen 
             </p>
-            <label for="id=rokkuTest">Testar Programa:</label>
+            <label for="id=rokkuTest">Test the Program:</label>
             <a id=rokkuTest" target="_blank" href="https://brunoserbai.github.io/Rokku-Burger/"><button>Rokku Burger</button></a><br>
           </div>
 
           <div class="hidden">
-            <h3>ItgoPoke- Automação de Mensagens</h3>
-            <img loading="lazy" src="Images/ItgoPokeLogo.jpg" alt="Logo do restaurante Itgo Poke ">
-            <p>Automação de mensagens por WhatsApp. O programa reduz trabalho pelos atendentes e providencia respostas rápidas ao cliente.</p><br>
+            <h3>ItgoPoke - Message Automation</h3>
+            <img loading="lazy" src="./Images/ItgoPokeLogo.jpg" alt="Logo do restaurante Itgo Poke ">
+            <p>WhatsApp message automation. The automation reduces employee workloads and provides customers with fast responses.</p><br>
           </div>
 
           <div class="hidden">
-            <h3>Hospedagem de Website</h3>
-            <img loading="lazy" src="Images/Server.jpg">
-            <p>Este website é hospedado em servidor na nuvem, gerenciado com Nginx rodando sistema operacional Linux. </p>
+            <h3>Website Hosting</h3>
+            <img loading="lazy" src="./Images/Server.jpg">
+            <p>I provided hassle-free website hosting solutions, allowing my clients to focus on growing their online presence. </p>
           </div>
         </section>
       </main>
 
       <footer>
         <br/>
-        <h2 id="contato">Contato</h2>
+        <h2 id="contato">Contact</h2>
         <hr>
 
-        <div class="links" >  
+        <div class="devicon contact" >  
           <a href="https://github.com/BrunoSerbai" target="_blank">
-            <div class="icons" style="background-color: #121011;"> <i class="devicon-github-original"></i>GITHUB</div>
+            <div class="icons" style="background-color: #121011;"><img src="Icons/images/GitHub.svg"></img></i>GITHUB</div>
           </a>       
             <a href="https://www.linkedin.com/in/bruno-serbai" target="_blank">
-              <img loading="lazy" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin" />
+              <div class="icons" style="background-color: #0077B5;"><img src="Icons/images/LinkedIn.svg"></img>LINKEDIN </div>
             </a>
           
-            <a href="https://wa.me/55991107327?text=Olá,%20Bom%20Dia%20!" target="_blank">
-              <img loading="lazy" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+            <a href="https://wa.me/5543991107327?text=Hello!" target="_blank">
+              <div class="icons" style="background-color: #25D366;"><img src="Icons/images/WhatsApp.svg"></img>WHATSAPP</div>
             </a>
           
             <a href="mailto:brunoserbai@outlook.com" target="_blank">
-              <img loading="lazy" src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Email"/>
+              <div class="icons" style="background-color: #0078D4;"><img src="Icons/images/email-8-svgrepo-com.svg"></img>EMAIL</div>
             </a>
 
           </div>
