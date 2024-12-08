@@ -5,6 +5,21 @@ import Profile from './components/Profile/Profile.jsx'
 
 
 function App() {
+
+  //Fade in animation for the class .hidden
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        } 
+    });
+});
+
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach((el) => observer.observe(el));
+
+
   return (
     <>
     <Profile/>
