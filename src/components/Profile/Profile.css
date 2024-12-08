@@ -1,0 +1,31 @@
+h1{
+  font-size: 2rem;
+}
+
+button {
+  color: #11111b;
+  background-color: #89b4fa;
+  border-radius: 25px;
+  border: 2px solid black;
+  border-color: rgb(137, 180, 250);
+  margin: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 5px 40px;
+  text-decoration: none;
+}
+
+img {
+  margin-top: 20px;
+}
+
+.outline {
+  background-color: #181825;
+  cursor: pointer;
+  border-color: rgb(137, 180, 250);
+  color: rgb(137, 180, 250);
+}
+.fix {
+  padding-bottom: 1px;
+}
