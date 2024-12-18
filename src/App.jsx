@@ -2,7 +2,7 @@ import "./App.css";
 import UsIcon from './assets/Icons/us.svg';
 import BrIcon from './assets/Icons/br.svg';
 import Profile from './components/Profile/Profile.jsx'
-
+import Card from './components/Card.jsx'
 
 function App() {
 
@@ -108,6 +108,7 @@ hiddenElements.forEach((el) => observer.observe(el));
             <br />
             <h2 id="projetos">Experiência</h2>
             <hr />
+            <Card />
             <div className="hidden">
               <h3>Bankme - Estágio em infraestrutura de TI</h3>
               <img
