@@ -3,7 +3,7 @@ html {
   scroll-behavior: smooth;
   scroll-padding: 10px;
   color: #cdd6f4;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   text-align: center;
   font-family: roboto, sans-serif;
 }
@@ -42,13 +42,7 @@ hr {
   width: 80%;
 }
 
-img {
-  width: 80%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  border-radius: 8px;
-}
+
 
 button {
   color: #11111b;
