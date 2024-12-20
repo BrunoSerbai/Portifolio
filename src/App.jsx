@@ -35,25 +35,21 @@ function App() {
               </p>
               <h3 id="formação">Formação</h3>
               <ul>
-                <li>Ensino Superior:</li>
+                <li>Educação:</li>
                 <div className="devicon education">
                   <div className="icons education">
                     <img src={uninter} />
                     UNIVERSIDADE UNINTER - BACHARELADO DE ENGENHARIA DE SOFTWARE
                   </div>
-                </div>
-                <br />
-                <li>Linguagens:</li>
-                <div className="devicon">
                   <div className="icons">
                     <img src={UsIcon} />
-                    INGLÊS
+                    INGLÊS - AVANÇADO
                   </div>
-                  <div className="icons">
-                    <img src={BrIcon} />
-                    PORTUGUES
-                  </div>
+                  
                 </div>
+                
+                <br />
+                
                 <li>Tecnologias: </li>
               </ul>
               <div className="devicon">
