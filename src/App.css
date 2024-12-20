@@ -84,6 +84,7 @@ p{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 
 
@@ -120,6 +121,12 @@ p{
   font-weight: 600;
   font-family: rubik, roboto;
   letter-spacing: 3px;
+  
+  color: #11111b;
+  background-color: #89b4fa;
+  border-radius: 26px;
+  margin: 5px;
+  text-decoration: none;
 }
 .icons i {
   font-size: 24px;
