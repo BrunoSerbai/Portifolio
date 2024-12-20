@@ -13,7 +13,7 @@ function Profile() {
         <a href="#contato">
           <button>☎ Contato</button>
         </a>
-        <a target="blank" href="../../assets/documents/Bruno_Serbai.doc">
+        <a target="blank" href="src/assets/documents/Bruno_Serbai.doc">
           <button className="outline fix"> 🖹 Currículo</button>
         </a>
       </div>
