@@ -31,28 +31,28 @@
      inkscape:deskcolor="#505050"
      inkscape:zoom="0.84270835"
      inkscape:cx="219.53028"
-     inkscape:cy="217.7503"
-     inkscape:window-width="1536"
-     inkscape:window-height="836"
+     inkscape:cy="218.34363"
+     inkscape:window-width="1920"
+     inkscape:window-height="1022"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="flag-icons-us" />
   <path
      fill="#bd3d44"
-     d="M -45.686031,133.49814 H 594.31397 v 480 H -45.686031"
+     d="M -0.59332485,0.59332186 H 639.40668 V 480.59332 H -0.59332485"
      id="path1"
      style="display:inline;fill:#11111b;fill-opacity:1" />
   <path
      stroke="#ffffff"
      stroke-width="37"
-     d="M -45.686031,188.79814 H 477.6267 594.31397 m -640.000001,73.7 h 555.352291 84.64771 m -640.000001,74 h 543.485781 96.51422 m -640.000001,74 H 594.31397 m -640.000001,74 H 594.31397 m -640.000001,74 H 594.31397"
+     d="M -0.59332485,55.893322 H 522.71941 639.40668 M -0.59332485,129.59332 H 554.75897 639.40668 m -640.00000485,74 H 542.89246 639.40668 m -640.00000485,74 H 639.40668 m -640.00000485,74 H 639.40668 m -640.00000485,74 H 639.40668"
      id="path2"
      sodipodi:nodetypes="ccccccccccccccc"
      style="display:inline;fill:#52b0ba;fill-opacity:1;fill-rule:nonzero;stroke:#89b4fa;stroke-opacity:1" />
   <path
      fill="#192f5d"
-     d="M -45.686031,133.49814 H 319.11397 v 258.5 H -45.686031"
+     d="M -0.59332485,0.59332186 H 364.20668 V 259.09332 H -0.59332485"
      id="path3"
      style="fill:#11111b;fill-opacity:1" />
   <marker
@@ -61,7 +61,7 @@
      markerWidth="30">
     <path
        fill="#fff"
-       d="m14 0 9 27L0 10h28L5 27z"
+       d="m 59.092706,-132.90482 9,27 -23,-17 h 28 l -23,17 z"
        id="path4"
        style="fill:#89b4fa;fill-opacity:1" />
   </marker>

@@ -8,7 +8,6 @@
 }
 
 .icons {
-  display: inline-block;
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
@@ -20,17 +19,17 @@
   font-weight: 600;
   font-family: rubik, roboto;
   letter-spacing: 3px;
-
   color: #11111b;
   background-color: #89b4fa;
   border-radius: 26px;
-
   text-decoration: none;
 }
+
 .icons i {
   font-size: 22px;
   margin: 0 15px 0 0;
 }
+
 .icons img {
   width: 22px;
   height: auto;

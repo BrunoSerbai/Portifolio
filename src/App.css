@@ -10,7 +10,7 @@ html {
 
 body {
   /*Website Background*/
-  background: #1E1E2E;
+  background: #1e1e2e;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -22,21 +22,17 @@ a {
   text-decoration: none; /*Removes blue underline from link*/
 }
 
-h3{
+h3 {
   text-align: left;
-  
+
   margin-bottom: 10px;
 }
-
-
 
 hr {
   height: 1px;
   background-color: gray;
   width: 80%;
 }
-
-
 
 button {
   color: #11111b;
@@ -52,12 +48,7 @@ button {
   text-decoration: none;
 }
 
-
-footer{
-  background-color: #181825;
-}
-
-p{
+p {
   max-width: 60vw;
   margin: auto;
 }
@@ -71,8 +62,6 @@ p{
   border-radius: 10px;
 }
 
-
-
 .hidden {
   opacity: 0;
   filter: blur(5px);
@@ -80,9 +69,10 @@ p{
   transform: translateY(10%);
 }
 
-.hidden p, h3{
-  width:80%;
-  margin-left:auto;
+.hidden p,
+h3 {
+  width: 80%;
+  margin-left: auto;
   margin-right: auto;
 }
 .show {
@@ -91,52 +81,18 @@ p{
   transform: translateY(0%);
 }
 
-/*Possible Change for Devicons*/
+.exp {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-.contact{
+.contact {
   justify-content: space-evenly;
 }
 
-
-
-@media (max-width: 745px) {
-  p{
-    text-align: left;
-    max-width: 80vw
-  }
-  .sobre p{
-    text-align: center;
-  }
-  .devicon {
-    width:100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    justify-items: center;
-  }
-  .icons {
-    width: 75%;
-    font-size: 16px;
-    justify-content: start;
-  }
-  ul {
-    padding: 0;
-  }
-  img {
-    width: 100%;
-  }
-  .hidden p, hr{
-    width:100%;
-    justify-content: center;
-    margin: 20px auto;
-  }
-}
-
-.devicon.education {
-  grid-template-columns: 115%;
-}
-
-@media (max-width: 635px) {
+@media (max-width: 550px) {
+  
   .links {
     display: grid;
     grid-template-columns: 100%;
@@ -145,37 +101,9 @@ p{
   }
 
   .icons {
-    width: 75%;
+    
     font-size: 14px;
     justify-content: start;
-  }
-}
-
-@media (max-width: 470px) {
-  body {
-    backdrop-filter: blur(30px); /*Add blur to the back of the item*/
-  }
-  .back {
-    padding: 40px 5px 5px 5px;
-    margin: 5px;
-    background-color: rgba(0, 0, 0, 0);
-  }
-
-  .icons {
-    font-size: 12px;
-  }
-  .header-links {
-    display: flex;
-    justify-content: center;
-    flex-wrap: no-wrap;
-  }
-
-  .header-links button {
-    margin-top: 5px;
-  }
-
-  li {
-    margin: 10px;
   }
 }
 
