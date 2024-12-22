@@ -71,15 +71,6 @@ p{
   border-radius: 10px;
 }
 
-.devicon {
-  width:80%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  
-}
 
 
 .hidden {
@@ -101,47 +92,12 @@ p{
 }
 
 /*Possible Change for Devicons*/
-.icons {
-  display: inline-block;
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-  min-height: 40px;
-  padding: 0px 18px;
-  margin: 5px;
-  font-size: 16px;
-  font-weight: 600;
-  font-family: rubik, roboto;
-  letter-spacing: 3px;
-  
-  color: #11111b;
-  background-color: #89b4fa;
-  border-radius: 26px;
-  
-  text-decoration: none;
-}
-.icons i {
-  font-size: 22px;
-  margin: 0 15px 0 0;
-}
-.icons img{
-  width:24px;
-  height:auto;
-  margin: 0 15px 0 0;
-  border-radius: 3px;
-}
+
 .contact{
   justify-content: space-evenly;
 }
-#profile {
-  height: auto;
-  width: 20vh;
-  min-width: 170px;
-  max-width: 500px;
-  border-radius: 100%;
-}
+
+
 
 @media (max-width: 745px) {
   p{

@@ -1,16 +1,35 @@
-import React from 'react'
-import '../Card/Card.css'
-import expImg from '../../assets/Images/bankme.webp'
-function Card({titulo, subtitulo, texto}) {
+import React from "react";
+import "../Card/Card.css";
+
+function Card({ imagem, titulo, subtitulo, texto, botaoTexto, botaoUrl }) {
+  if (!botaoTexto || botaoTexto.length === 0) {
+    return (
+      <div className="card">
+        <img className="card-image" alt="Imagem" src={imagem} />
+        <h3 className="card-title">
+          {titulo}
+          <br />
+          {subtitulo}
+        </h3>
+        <p className="card-text">{texto}</p>
+      </div>
+    );
+  }
+
   return (
     <div className="card">
-      
-        <img className="card-image" alt="Webmin imagem" src={expImg}></img>
-         <h3 className="card-title">{titulo}
-        <br />{subtitulo}</h3>
-        <p className="card-text">{texto}</p>
+      <img className="card-image" alt="Imagem" src={imagem} />
+      <h3 className="card-title">
+        {titulo}
+        <br />
+        {subtitulo}
+      </h3>
+      <p className="card-text">{texto}</p>
+      <button className="card-button" href={botaoUrl}>
+        {botaoTexto}
+      </button>
     </div>
-  )
+  );
 }
 
-export default Card
+export default Card;
