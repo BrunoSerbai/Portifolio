@@ -22,19 +22,13 @@ a {
   text-decoration: none; /*Removes blue underline from link*/
 }
 
-h3,
-ul {
+h3{
   text-align: left;
-  margin-top: 60px;
+  
   margin-bottom: 10px;
 }
 
-li {
-  width:80%;
-  margin-left: auto;
-  margin-right: auto;
-  list-style: none;
-}
+
 
 hr {
   height: 1px;
@@ -113,7 +107,7 @@ p{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 5vh;
+  
   min-height: 40px;
   padding: 0px 18px;
   margin: 5px;
@@ -125,7 +119,7 @@ p{
   color: #11111b;
   background-color: #89b4fa;
   border-radius: 26px;
-  margin: 5px;
+  
   text-decoration: none;
 }
 .icons i {
@@ -185,9 +179,7 @@ p{
 .devicon.education {
   grid-template-columns: 115%;
 }
-.icons.education {
-  height: fit-content;
-}
+
 @media (max-width: 635px) {
   .links {
     display: grid;
