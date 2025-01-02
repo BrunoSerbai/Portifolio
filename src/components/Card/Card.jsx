@@ -1,5 +1,5 @@
 import React from "react";
-import "../Card/Card.css";
+import "./Card.css";
 
 function Card({ imagem, titulo, subtitulo, texto, botaoTexto, botaoUrl }) {
   if (!botaoTexto || botaoTexto.length === 0) {
