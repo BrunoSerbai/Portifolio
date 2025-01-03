@@ -90,7 +90,20 @@ h3 {
 .contact {
   justify-content: space-evenly;
 }
+@media (max-width: 635px) {
+  .links {
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    justify-items: center;
+  }
 
+  .icons {
+    
+    font-size: 14px;
+    justify-content: start;
+  }
+}
 @media (max-width: 550px) {
   
   .links {
@@ -101,7 +114,7 @@ h3 {
   }
 
   .icons {
-    
+    width: 75%;
     font-size: 14px;
     justify-content: start;
   }

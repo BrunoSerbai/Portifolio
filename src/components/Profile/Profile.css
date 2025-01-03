@@ -11,12 +11,34 @@
   margin-top: 50px;
 }
 
+.links{ display: flex;
+  justify-content: space-between;
+  letter-spacing: 3px;
+}
+
+.links img {
+  width: 20px;
+  height: auto;
+  margin: 0 15px 0 0;
+  padding: 0;
+  
+}
+
+
 .outline {
   background-color: #181825;
   cursor: pointer;
   border-color: rgb(137, 180, 250);
   color: rgb(137, 180, 250);
 }
-.fix {
-  padding-bottom: 1px;
-}
+
+@media (max-width: 600px) { /* Adjust the breakpoint as needed */
+  .contato{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
