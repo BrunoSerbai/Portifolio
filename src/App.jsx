@@ -50,9 +50,9 @@ function App() {
               <h2 id="projetos">Experiência</h2>
               <div className="exp">
               <Card imagem={bankmeImg} titulo={"Bankme"} subtitulo={"Infraestrutura de TI"} texto={"Manutenção de equipamentos, configuração e monitoramento de servidores Linux e firewalls"}/>
-              <Card imagem={rokkuImg} titulo={"Rokku Burguer"} subtitulo={"Gerenciador de Pedidos"} texto={"Sistema de gerenciamento de pedidos para restaurante Rokku Burguer. O programa facilita a coleta de pedidos, reduz erros de cobrança e aumenta a eficiência do atendimento"} botaoTexto={"Teste já!"} botaoUrl={"https://brunoserbai.github.io/Rokku-Burger"}/>
-              <Card imagem={itgoImg} titulo={"ItgoPoke"} subtitulo={"Automação de Mensagens"} texto={"Automação de mensagens por WhatsApp. O programa reduz trabalhopelos atendentes e providencia respostas rápidas ao cliente."}/>
-              <Card imagem={serverImg} titulo={"Hospedagem de Website"} subtitulo={""} texto={"Este website é hospedado em servidor na nuvem, gerenciado com Nginx rodando sistema operacional Linux."}/>
+              <Card imagem={rokkuImg} titulo={"Rokku Burguer"} subtitulo={"Gerenciador de Pedidos"} texto={"Sistema de gerenciamento de pedidos para restaurante Rokku Burguer reduz erros de cobrança"} />
+              <Card imagem={itgoImg} titulo={"ItgoPoke"} subtitulo={"Automação de Mensagens"} texto={"Automação de mensagens por WhatsApp providencia respostas rápidas ao cliente."}/>
+              <Card imagem={serverImg} titulo={"Hospedagem de Website"} subtitulo={""} texto={"Este website é hospedado pelo Vultr, gerenciado com Nginx rodando sistema operacional Linux."}/>
               </div>
               
            
