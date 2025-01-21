@@ -1,39 +1,37 @@
-.card{
+.card {
   font-size: 16px;
   font-optical-sizing: auto;
-  display:flexbox;
+  display: flexbox;
   border-color: black;
-  border-style:solid;
+  border-style: solid;
   border-width: 1px;
   background-color: #45475a;
   max-width: 300px;
-  border-radius:14px;
-  box-shadow:  3px 3px black;
+  border-radius: 14px;
+  box-shadow: 3px 3px black;
   margin: 10px;
-  padding:20px;
+  padding: 20px;
 }
-.cardImg{
+.cardImg {
   width: 100%;
-  border-radius:12px
+  border-radius: 12px;
 }
-.tag{
+.tag {
   background-color: hsl(47, 88%, 63%);
-  width:fit-content;
-  font-size:16px;
+  width: fit-content;
+  font-size: 16px;
   font-weight: 800;
   border-radius: 5px;
-  padding:5px 10px;
-  margin:20px 0 15px 0;
+  padding: 5px 10px;
+  margin: 20px 0 15px 0;
 }
-h2{
+h2 {
   font-weight: 800;
 }
-.description{
-  
-  margin:20px 0 20px 0; 
+.description {
+  margin: 20px 0 20px 0;
 }
-.profile{
-  font-size:16px;
-  font-weight:800;
+.profile {
+  font-size: 16px;
+  font-weight: 800;
 }
-

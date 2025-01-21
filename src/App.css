@@ -99,13 +99,11 @@ h3 {
   }
 
   .icons {
-    
     font-size: 14px;
     justify-content: start;
   }
 }
 @media (max-width: 550px) {
-  
   .links {
     display: grid;
     grid-template-columns: 100%;

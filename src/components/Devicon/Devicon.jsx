@@ -49,7 +49,7 @@ function Devicon() {
         WEBMIN
       </div>
       <div class="icons">
-        <i class="devicon-figma-plain"/>
+        <i class="devicon-figma-plain" />
         FIGMA
       </div>
     </div>
