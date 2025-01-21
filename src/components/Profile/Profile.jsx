@@ -1,4 +1,3 @@
-import React from "react";
 import profileImg from "../../assets/Images/b2.jpg";
 import contactImg from "../../assets/Icons/tel1.svg"
 import cvImg from "../../assets/Icons/document.svg"

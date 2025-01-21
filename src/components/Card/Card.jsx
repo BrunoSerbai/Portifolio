@@ -1,7 +1,6 @@
-import React from "react";
 import "../Card/Card.css";
 
-function Card({ imagem, titulo, subtitulo, texto, botaoTexto, botaoUrl }) {
+function Card({ imagem, titulo, texto}) {
   
     return (
       <>

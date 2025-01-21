@@ -4,8 +4,6 @@ import Profile from "./components/Profile/Profile.jsx";
 import Card from "./components/Card/Card.jsx";
 import Devicon from "./components/Devicon/Devicon.jsx"
 import uninter from "./assets/Icons/uninter_b.svg";
-import webmin from "./assets/Icons/webmin2.svg";
-import nginx from "./assets/Icons/nginx.svg"
 import bankmeImg from "./assets/Images/bankme.webp"
 import rokkuImg from "./assets/Images/Rokku-1.webp"
 import itgoImg from "./assets/Images/ItgoPoke.webp"
@@ -64,7 +62,7 @@ function App() {
             <div className="devicon contact">
               <a href="https://github.com/BrunoSerbai" target="_blank">
                 <button className="icons">
-                  <i class="devicon-github-original" />
+                  <i className="devicon-github-original" />
                   GITHUB
                 </button>
               </a>
@@ -73,7 +71,7 @@ function App() {
                 target="_blank"
               >
                 <button className="icons">
-                  <i class="devicon-linkedin-plain" />
+                  <i className="devicon-linkedin-plain" />
                   LINKEDIN
                 </button>
               </a>
