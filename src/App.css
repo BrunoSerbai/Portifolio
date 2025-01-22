@@ -24,10 +24,9 @@ a {
 
 h3 {
   text-align: center;
-
+  font-size: 1.4rem;
   margin-bottom: 10px;
 }
-
 
 button {
   color: #11111b;
@@ -45,12 +44,13 @@ button {
 
 p {
   max-width: 60vw;
-  margin: auto ;
+  margin: auto;
 }
 
-section{
-  margin:70px;
+section {
+  margin: 70px;
 }
+
 .back {
   /*Black box to display items*/
   margin: 27px;
@@ -85,9 +85,13 @@ h3 {
   flex-wrap: wrap;
 }
 
-.contact {
-  justify-content: space-evenly;
-}
+
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 3px;
+  }
 
 @media (max-width: 635px) {
   .links {

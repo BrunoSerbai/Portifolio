@@ -5,8 +5,7 @@ function Card({ imagem, titulo, texto }) {
     <>
       <div className="card">
         <img src={imagem} className="cardImg" />
-
-        <h3>{titulo}</h3>
+        <h3 className="tittle">{titulo}</h3>
         <div className="description">{texto}</div>
       </div>
     </>

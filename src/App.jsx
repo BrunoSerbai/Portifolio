@@ -17,7 +17,7 @@ function App() {
       <body>
         <div className="back">
           <main>
-          <Profile />
+            <Profile />
             <section>
               <h3 id="sobre">Sobre mim</h3>
               <p id="sobre">
@@ -27,26 +27,25 @@ function App() {
                 positiva no mundo do desenvolvimento de software.
               </p>
             </section>
-              <h3 id="formação">Formação</h3>
-              <ul>
-                <div className="devicon">
-                  <div className="icons">
-                    <img src={uninter} />
-                    UNINTER - BACHARELADO DE ENGENHARIA DE SOFTWARE
-                  </div>
-                  <div className="icons">
-                    <img src={usIcon} />
-                    INGLÊS - AVANÇADO
-                  </div>
+            <h3 id="formação">Formação</h3>
+            <ul>
+              <div className="devicon">
+                <div className="icons">
+                  <img src={uninter} />
+                  UNINTER - BACHARELADO DE ENGENHARIA DE SOFTWARE
                 </div>
-
-                <br />
-              </ul>
-              <section>
+                <div className="icons">
+                  <img src={usIcon} />
+                  INGLÊS - AVANÇADO
+                </div>
+              </div>
+              <br />
+            </ul>
+            <section>
               <h3>Tecnologias </h3>
               <Devicon />
               <br />
-              <h2 id="projetos">Experiência</h2>
+              <h3 id="projetos">Experiência</h3>
               <div className="exp">
                 <Card
                   imagem={bankmeImg}
@@ -82,40 +81,42 @@ function App() {
                 />
               </div>
             </section>
+            <footer>
+              <h2 id="contato">Contato</h2>
+              <div className="devicon contact">
+                <a href="https://github.com/BrunoSerbai" target="_blank">
+                  <button className="icons">
+                    <i className="devicon-github-original" />
+                    GITHUB
+                  </button>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/bruno-serbai"
+                  target="_blank"
+                >
+                  <button className="icons">
+                    <i className="devicon-linkedin-plain" />
+                    LINKEDIN
+                  </button>
+                </a>
+                <a
+                  href="https://wa.me/5543991107327?text=Hello!"
+                  target="_blank"
+                >
+                  <button className=" icons">
+                    <img src={whatsImg} />
+                    WHATSAPP
+                  </button>
+                </a>
+                <a href="mailto:brunoserbai@outlook.com" target="_blank">
+                  <button className=" icons">
+                    <img src={emailImg} />
+                    EMAIL
+                  </button>
+                </a>
+              </div>
+            </footer>
           </main>
-          <footer>
-            <br />
-            <h2 id="contato">Contato</h2>
-            <div className="devicon contact">
-              <a href="https://github.com/BrunoSerbai" target="_blank">
-                <button className="icons">
-                  <i className="devicon-github-original" />
-                  GITHUB
-                </button>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/bruno-serbai"
-                target="_blank"
-              >
-                <button className="icons">
-                  <i className="devicon-linkedin-plain" />
-                  LINKEDIN
-                </button>
-              </a>
-              <a href="https://wa.me/5543991107327?text=Hello!" target="_blank">
-                <button className="icons">
-                  <img src={whatsImg} />
-                  WHATSAPP
-                </button>
-              </a>
-              <a href="mailto:brunoserbai@outlook.com" target="_blank">
-                <button className="icons">
-                  <img src={emailImg} />
-                  EMAIL
-                </button>
-              </a>
-            </div>
-          </footer>
         </div>
       </body>
     </>
