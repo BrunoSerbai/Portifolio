@@ -14,10 +14,10 @@ import emailImg from "./assets/Icons/email.svg";
 function App() {
   return (
     <>
-      <Profile />
       <body>
         <div className="back">
           <main>
+          <Profile />
             <section>
               <h3 id="sobre">Sobre mim</h3>
               <p id="sobre">
@@ -26,6 +26,7 @@ function App() {
                 Comprometido com o aprimoramento constante e em deixar uma marca
                 positiva no mundo do desenvolvimento de software.
               </p>
+            </section>
               <h3 id="formação">Formação</h3>
               <ul>
                 <div className="devicon">
@@ -41,6 +42,7 @@ function App() {
 
                 <br />
               </ul>
+              <section>
               <h3>Tecnologias </h3>
               <Devicon />
               <br />

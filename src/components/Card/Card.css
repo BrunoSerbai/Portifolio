@@ -8,13 +8,14 @@
   background-color: #45475a;
   max-width: 300px;
   border-radius: 14px;
-  box-shadow: 3px 3px black;
+  box-shadow: 2px 3px black;
   margin: 10px;
-  padding: 20px;
+  
 }
 .cardImg {
   width: 100%;
-  border-radius: 12px;
+  max-height: 168px;
+  border-radius: 12px 12px 0px 0px;
 }
 .tag {
   background-color: hsl(47, 88%, 63%);
@@ -29,7 +30,7 @@ h2 {
   font-weight: 800;
 }
 .description {
-  margin: 20px 0 20px 0;
+  margin: 20px ;
 }
 .profile {
   font-size: 16px;
