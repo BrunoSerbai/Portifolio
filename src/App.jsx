@@ -39,7 +39,6 @@ function App() {
                   INGLÊS - AVANÇADO
                 </div>
               </div>
-              <br />
             </ul>
             <section>
               <h3>Tecnologias </h3>
@@ -82,7 +81,7 @@ function App() {
               </div>
             </section>
             <footer>
-              <h2 id="contato">Contato</h2>
+              <h3 id="contato">Contato</h3>
               <div className="devicon contact">
                 <a href="https://github.com/BrunoSerbai" target="_blank">
                   <button className="icons">
