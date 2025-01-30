@@ -17,7 +17,9 @@ function App() {
       <body>
         <div className="back">
           <main>
+            <section>
             <Profile />
+            </section>
             <section>
               <h3 id="sobre">Sobre mim</h3>
               <p id="sobre">
@@ -27,6 +29,7 @@ function App() {
                 positiva no mundo do desenvolvimento de software.
               </p>
             </section>
+            <section>
             <h3 id="formação">Formação</h3>
             <ul>
               <div className="devicon">
@@ -40,6 +43,7 @@ function App() {
                 </div>
               </div>
             </ul>
+            </section>
             <section>
               <h3>Tecnologias </h3>
               <Devicon />
