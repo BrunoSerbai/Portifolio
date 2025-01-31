@@ -11,10 +11,13 @@
   margin-top: 50px;
 }
 
+
 .links {
   display: flex;
   justify-content: space-between;
   letter-spacing: 3px;
+  min-height: 40px;
+  align-items: center;
 }
 
 .links img {
@@ -22,8 +25,15 @@
   height: auto;
   margin: 0 15px 0 0;
   padding: 0;
+  
 }
-
+.links i {
+  font-size: 22px;
+  margin: 0 15px 0 0;
+}
+.links button {
+  font-family: rubik, roboto;
+}
 .outline {
   background-color: transparent;
   cursor: pointer;

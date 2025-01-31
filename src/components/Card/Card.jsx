@@ -1,4 +1,5 @@
 import "../Card/Card.css";
+//TODO: Redesign card layout
 
 function Card({ imagem, titulo, texto }) {
   return (

@@ -5,12 +5,14 @@ import Card from "./components/Card/Card.jsx";
 import Devicon from "./components/Devicon/Devicon.jsx";
 import uninter from "./assets/Icons/uninter_b.svg";
 import bankmeImg from "./assets/Images/bankme.webp";
-import rokkuImg from "./assets/Images/Rokku-1.webp";
+import rokkuImg from "./assets/Images/Rokku-1.png";
 import itgoImg from "./assets/Images/ItgoPoke.webp";
 import serverImg from "./assets/Images/server.webp";
-import whatsImg from "./assets/Icons/whatsapp.svg";
-import emailImg from "./assets/Icons/email.svg";
 
+//TODO: Fix dark mode changing the website color
+//TODO: Merge app.css and index.css
+//TODO: Add new projects to the portifolio
+//TODO: Update Readme
 function App() {
   return (
     <>
@@ -18,7 +20,7 @@ function App() {
         <div className="back">
           <main>
             <section>
-            <Profile />
+              <Profile />
             </section>
             <section>
               <h3 id="sobre">Sobre mim</h3>
@@ -30,19 +32,17 @@ function App() {
               </p>
             </section>
             <section>
-            <h3 id="formação">Formação</h3>
-            <ul>
-              <div className="devicon">
-                <div className="icons">
-                  <img src={uninter} />
-                  UNINTER - BACHARELADO DE ENGENHARIA DE SOFTWARE
+              <h3 id="formação">Formação</h3>
+                <div className="devicon">
+                  <div className="icons">
+                    <img src={uninter} />
+                    UNINTER - BACHARELADO DE ENGENHARIA DE SOFTWARE
+                  </div>
+                  <div className="icons">
+                    <img src={usIcon} />
+                    INGLÊS - AVANÇADO
+                  </div>
                 </div>
-                <div className="icons">
-                  <img src={usIcon} />
-                  INGLÊS - AVANÇADO
-                </div>
-              </div>
-            </ul>
             </section>
             <section>
               <h3>Tecnologias </h3>
@@ -84,41 +84,7 @@ function App() {
                 />
               </div>
             </section>
-            <footer>
-              <h3 id="contato">Contato</h3>
-              <div className="devicon contact">
-                <a href="https://github.com/BrunoSerbai" target="_blank">
-                  <button className="icons">
-                    <i className="devicon-github-original" />
-                    GITHUB
-                  </button>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/bruno-serbai"
-                  target="_blank"
-                >
-                  <button className="icons">
-                    <i className="devicon-linkedin-plain" />
-                    LINKEDIN
-                  </button>
-                </a>
-                <a
-                  href="https://wa.me/5543991107327?text=Hello!"
-                  target="_blank"
-                >
-                  <button className=" icons">
-                    <img src={whatsImg} />
-                    WHATSAPP
-                  </button>
-                </a>
-                <a href="mailto:brunoserbai@outlook.com" target="_blank">
-                  <button className=" icons">
-                    <img src={emailImg} />
-                    EMAIL
-                  </button>
-                </a>
-              </div>
-            </footer>
+            
           </main>
         </div>
       </body>
