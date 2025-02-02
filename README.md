@@ -1,8 +1,24 @@
-# React + Vite
+# Meu Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio! Aqui você pode conhecer meus projetos, habilidades e experiência em desenvolvimento de software.
 
-Currently, two official plugins are available:
+## 🚀 Sobre Mim
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sou estudante de Engenharia de Software com paixão por desenvolvimento full-stack, redes e software open source. Atualmente, sou estagiário em uma startup fintech, expandindo meu conhecimento em tecnologias modernas para web.
+
+## 🛠️ Tecnologias & Ferramentas
+
+**Frontend:** React, Vite, TailwindCSS
+
+**Backend:** Node.js
+
+**Infraestrutura & Ferramentas:** Docker, Arch Linux, Nginx, Git
+
+## 📫 Contato
+
+Fique à vontade para entrar em contato!
+
+- Email: brunoserbai@outlook.com
+- LinkedIn: https://www.linkedin.com/in/bruno-serbai/
+
+Obrigado pela visita! 🚀
