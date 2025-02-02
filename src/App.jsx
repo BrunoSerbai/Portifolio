@@ -33,16 +33,16 @@ function App() {
             </section>
             <section>
               <h3 id="formação">Formação</h3>
-                <div className="devicon">
-                  <div className="icons">
-                    <img src={uninter} />
-                    UNINTER - BACHARELADO DE ENGENHARIA DE SOFTWARE
-                  </div>
-                  <div className="icons">
-                    <img src={usIcon} />
-                    INGLÊS - AVANÇADO
-                  </div>
+              <div className="devicon">
+                <div className="icons">
+                  <img src={uninter} />
+                  UNINTER - ENGENHARIA DE SOFTWARE
                 </div>
+                <div className="icons">
+                  <img src={usIcon} />
+                  INGLÊS - AVANÇADO
+                </div>
+              </div>
             </section>
             <section>
               <h3>Tecnologias </h3>
@@ -84,7 +84,6 @@ function App() {
                 />
               </div>
             </section>
-            
           </main>
         </div>
       </body>
