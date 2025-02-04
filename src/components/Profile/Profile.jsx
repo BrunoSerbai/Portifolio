@@ -1,4 +1,4 @@
-import profileImg from "../../assets/Images/b2.jpg";
+import profileImg from "../../assets/Images/b2.webp";
 import "./Profile.css";
 
 function Profile() {

@@ -5,14 +5,12 @@ import Card from "./components/Card/Card.jsx";
 import Devicon from "./components/Devicon/Devicon.jsx";
 import uninter from "./assets/Icons/uninter_b.svg";
 import bankmeImg from "./assets/Images/bankme.webp";
-import rokkuImg from "./assets/Images/Rokku-1.png";
+import rokkuImg from "./assets/Images/Rokku-1.webp";
 import itgoImg from "./assets/Images/ItgoPoke.webp";
 import serverImg from "./assets/Images/server.webp";
 
-//TODO: Fix dark mode changing the website color
 //TODO: Merge app.css and index.css
 //TODO: Add new projects to the portifolio
-//TODO: Update Readme
 function App() {
   return (
     <>
