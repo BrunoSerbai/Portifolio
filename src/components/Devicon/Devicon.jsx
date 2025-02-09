@@ -1,6 +1,5 @@
 import React from "react";
 import "./Devicon.css";
-
 import webmin from "../../assets/Icons/webmin2.svg";
 import nginx from "../../assets/Icons/nginx.svg";
 
@@ -9,35 +8,35 @@ function Devicon() {
     <div className="devicon">
       {/* Icons from: https://github.com/Ileriayo/markdown-badges and https://devicon.dev/ */}
       <div className="icons">
-        <i class="devicon-html5-plain" />
+        <i className="devicon-html5-plain" />
         HTML 5
       </div>
       <div className="icons">
-        <i class="devicon-css3-plain" />
+        <i className="devicon-css3-plain" />
         CSS 3
       </div>
       <div className="icons">
-        <i class="devicon-javascript-plain" />
+        <i className="devicon-javascript-plain" />
         JAVASCRIPT
       </div>
       <div className="icons">
-        <i class="devicon-react-original" />
+        <i className="devicon-react-original" />
         REACT
       </div>
       <div className="icons">
-        <i class="devicon-git-plain" />
+        <i className="devicon-git-plain" />
         GIT
       </div>
       <div className="icons">
-        <i class="devicon-github-original" />
+        <i className="devicon-github-original" />
         GITHUB
       </div>
       <div className="icons">
-        <i class="devicon-linux-plain" />
+        <i className="devicon-linux-plain" />
         LINUX
       </div>
-      <div class="icons">
-        <i class="devicon-docker-plain" />
+      <div className="icons">
+        <i className="devicon-docker-plain" />
         DOCKER
       </div>
       <div className="icons">
@@ -48,9 +47,13 @@ function Devicon() {
         <img src={webmin} />
         WEBMIN
       </div>
-      <div class="icons">
-        <i class="devicon-figma-plain" />
+      <div className="icons">
+        <i className="devicon-figma-plain" />
         FIGMA
+      </div>
+      <div className="icons">
+        <i className="devicon-tailwindcss-original" />
+        TAILWIND
       </div>
     </div>
   );
