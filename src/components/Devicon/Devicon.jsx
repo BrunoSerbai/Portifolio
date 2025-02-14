@@ -36,6 +36,10 @@ function Devicon() {
         LINUX
       </div>
       <div className="icons">
+        <i className="devicon-neovim-plain" />
+        NEOVIM
+      </div>
+      <div className="icons">
         <i className="devicon-docker-plain" />
         DOCKER
       </div>
@@ -54,6 +58,10 @@ function Devicon() {
       <div className="icons">
         <i className="devicon-tailwindcss-original" />
         TAILWIND
+      </div>
+      <div className="icons">
+        <i className="devicon-postgresql-plain" />
+        POSTGRESQL
       </div>
     </div>
   );
