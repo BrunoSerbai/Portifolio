@@ -1,4 +1,3 @@
-import React from "react";
 import "./Devicon.css";
 import webmin from "../../assets/Icons/webmin2.svg";
 import nginx from "../../assets/Icons/nginx.svg";
@@ -62,6 +61,10 @@ function Devicon() {
       <div className="icons">
         <i className="devicon-postgresql-plain" />
         POSTGRESQL
+      </div>
+      <div className="icons">
+        <i className="devicon-express-original" />
+        EXPRESS.JS
       </div>
     </div>
   );
