@@ -9,13 +9,13 @@ function Profile() {
       <div className="devicon">
         <a href="https://github.com/BrunoSerbai" target="_blank">
           <button className="links">
-            <i class="devicon-github-original" /> GITHUB
+            <i className="devicon-github-original" /> GITHUB
           </button>
         </a>
         <a target="blank" href="https://www.linkedin.com/in/bruno-serbai/">
           <button className="outline links">
             {" "}
-            <i class="devicon-linkedin-plain" /> LINKEDIN
+            <i className="devicon-linkedin-plain" /> LINKEDIN
           </button>
         </a>
       </div>

@@ -66,6 +66,14 @@ function Devicon() {
         <i className="devicon-express-original" />
         EXPRESS.JS
       </div>
+      <div className="icons">
+        <i className="devicon-jira-plain" />
+        JIRA
+      </div>
+      <div className="icons">
+        <i className="devicon-googlecloud-plain" />
+        GOOGLE CLOUD
+      </div>
     </div>
   );
 }

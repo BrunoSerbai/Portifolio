@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* Global Styles */
 html {
   scroll-behavior: smooth;
   scroll-padding: 10px;
@@ -8,24 +10,11 @@ html {
   font-family: roboto, sans-serif;
 }
 
-body {
-  /*Website Background*/
-  background: #1E1E2E;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-}
-
+/* Global Elements */
 a {
   cursor: pointer;
   color: white;
-  text-decoration: none; /*Removes blue underline from link*/
-}
-
-h3 {
-  text-align: center;
-  font-size: 1.4rem;
-  margin-bottom: 10px;
+  text-decoration: none;
 }
 
 button {
@@ -42,16 +31,64 @@ button {
   text-decoration: none;
 }
 
+h3 {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
 p {
   max-width: 1500px;
   margin: 0 15px 0 15px;
 }
 
 section {
-  margin-bottom: 70px;
+  margin-bottom: 0;
 }
 
+body {
+  background: #1E1E2E;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
 
+/* Layout Styles */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}
+
+.project-row {
+  border-radius: 15px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.project-row h4 {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.card-group {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Animations */
 .hidden {
   opacity: 0;
   filter: blur(5px);
@@ -65,26 +102,14 @@ h3 {
   margin-left: auto;
   margin-right: auto;
 }
+
 .show {
   opacity: 1;
   filter: blur(0px);
   transform: translateY(0%);
 }
 
-.exp {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-
-
-  .links {
-    display: flex;
-    justify-content: space-between;
-    letter-spacing: 3px;
-  }
-
+/* Responsive Design */
 @media (max-width: 635px) {
   .links {
     display: grid;
@@ -98,6 +123,7 @@ h3 {
     justify-content: start;
   }
 }
+
 @media (max-width: 550px) {
   .links {
     display: grid;
@@ -121,4 +147,8 @@ h3 {
   .header-links button {
     width: 80vw;
   }
+}
+
+.header-links button {
+    width: 80vw;
 }
