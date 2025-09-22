@@ -4,9 +4,10 @@ import Profile from "./components/Profile/Profile.jsx";
 import Card from "./components/Card/Card.jsx";
 import Devicon from "./components/Devicon/Devicon.jsx";
 import uninter from "./assets/Icons/uninter_b.svg";
+import indrelImg from "./assets/Images/indrel.png";
 import bankmeImg from "./assets/Images/bankme.webp";
 import rokkuImg from "./assets/Images/Rokku-1.webp";
-import itgoImg from "./assets/Images/ItgoPoke.webp";
+import itgoImg from "./assets/Images/ItgoPoke.jpg";
 import serverImg from "./assets/Images/server.webp";
 import aa1 from "./assets/Images/aa1.webp";
 import aa7 from "./assets/Images/aa7.webp";
@@ -62,8 +63,15 @@ function App() {
               <section>
                 <div className="projects-container">
                   <div className="project-row">
-                    <h4>Desenvolvimento Web</h4>
+                    <h4>Experiência profissional</h4>
                     <div className="card-group">
+                      <Card
+                        imagem={indrelImg}
+                        titulo={"Indrel"}
+                        texto={
+                          "Monitoramento e suporte do Indrel Cloud, manutenção de sistemas, gestão de chamados e testes de software"
+                        }
+                      />
                       <Card
                         imagem={bankmeImg}
                         titulo={"Bankme"}
