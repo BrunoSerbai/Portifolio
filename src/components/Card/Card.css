@@ -1,53 +1,17 @@
-.card {
-  font-size: 16px;
-  font-optical-sizing: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-  border-style: none;
-  border-width: 1px;
-  width: 310px;
-  
-  margin: 10px;
-  border-radius: 40px;
-  
-  background: #313244;
-  box-shadow:  6px 6px 12px #12121c,
-              -6px -6px 12px #2a2a40;
-  
-  transition: transform 0.1s ease;
-}
-
-.card:hover {
-  transform: scale(1.01);
-}
-
-.cardImg {
-  object-fit: fill;
-  width: 100%;
-  max-height: 160px;
-  border-radius: 40px 40px 0px 0px;
-}
-
-.tag {
-  background-color: hsl(47, 88%, 63%);
-  width: fit-content;
-  font-size: 16px;
-  font-weight: 800;
-  border-radius: 5px;
-  padding: 5px 10px;
-  margin: 20px 0 15px 0;
-}
-
-.card h3 {
-  font-size: 20px;
-}
-
-.description {
-  margin: 20px;
-}
-.profile {
-  font-size: 16px;
-  font-weight: 800;
-}
+.card { display: flex; flex-direction: column; background: var(--surface0); border: 1px solid rgba(255,255,255,0.06); border-radius: var(--radius-lg); overflow: hidden; transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition); cursor: default; }
+.card:hover { transform: translateY(-6px); box-shadow: var(--shadow-card); }
+.card--blue  { border-left: 3px solid var(--blue);  }
+.card--green { border-left: 3px solid var(--green); }
+.card--mauve { border-left: 3px solid var(--mauve); }
+.card--peach { border-left: 3px solid var(--peach); }
+.card--blue:hover  { box-shadow: var(--shadow-glow-blue);  }
+.card--green:hover { box-shadow: var(--shadow-glow-green); }
+.card--mauve:hover { box-shadow: 0 0 20px rgba(203,166,247,0.15); }
+.card--peach:hover { box-shadow: 0 0 20px rgba(250,179,135,0.15); }
+.card-img-wrap { position: relative; width: 100%; aspect-ratio: 16/9; overflow: hidden; }
+.card-img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease; }
+.card:hover .card-img { transform: scale(1.04); }
+.card-img-overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 40%, rgba(30,30,46,0.6)); }
+.card-body { padding: var(--sp-md); display: flex; flex-direction: column; gap: var(--sp-sm); flex: 1; }
+.card-title { font-family: var(--font-mono); font-size: 0.85rem; font-weight: 700; color: var(--text); letter-spacing: -0.01em; line-height: 1.3; }
+.card-desc { font-size: 0.8rem; color: var(--subtext0); line-height: 1.6; }

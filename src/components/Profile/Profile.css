@@ -1,53 +1,9 @@
-.name {
-  font-size: 2rem;
+.typing-cursor {
+  display: inline-block;
+  color: var(--blue);
+  animation: blink 1s step-end infinite;
+  font-size: 0.9em;
+  vertical-align: middle;
+  margin-left: 2px;
 }
-
-#profile {
-  height: auto;
-  width: 20vh;
-  min-width: 170px;
-  max-width: 500px;
-  border-radius: 100%;
-  margin-top: 50px;
-}
-
-
-.links {
-  display: flex;
-  justify-content: space-between;
-  letter-spacing: 3px;
-  min-height: 40px;
-  align-items: center;
-}
-
-.links img {
-  width: 20px;
-  height: auto;
-  margin: 0 15px 0 0;
-  padding: 0;
-  
-}
-.links i {
-  font-size: 22px;
-  margin: 0 15px 0 0;
-}
-.links button {
-  font-family: rubik, roboto;
-}
-.outline {
-  background-color: transparent;
-  cursor: pointer;
-  border-color: rgb(137, 180, 250);
-  color: rgb(137, 180, 250);
-}
-
-@media (max-width: 600px) {
-  .contato {
-    width: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-  }
-}
+@keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
